@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "bookmyshow"
+version = "0.1.0"
+description = ""
+authors = ["Pom Pom <2003victoryy@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+playwright = "^1.42.0"
+loguru = "^0.7.2"
+pydantic = "^2.6.4"
+windows-curses = "^2.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
